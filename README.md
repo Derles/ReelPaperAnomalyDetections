@@ -1,7 +1,7 @@
 
 # Reel paper anomaly detections
 
-The aim of the project is to create a mechanism for detecting paper defects on the splicer of a web press in order to minimize the risk of the paper breaking. The solution will be based on paper anomaly detection based on image recognition.
+The aim of the project is to create a mechanism for detecting paper defects on the splicer of a web press in order to minimize the risk of the paper breaking. The solution will be based on classification  whether an input image of paper web (image recognition) contains anomalies or not.
 
 
 ## Table of Contents
@@ -43,6 +43,7 @@ The printing section is composed of two printing couples arranged in tandem as s
  ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Blanket-to-blanket-printing-unit-of-a-web-offset-printing-press.jpg?raw=true)
 
 Standard web press has four printing units for main inks CMYK (Cyan, Magenta, Yelow and Blak).
+
 At the end of the printing process paper web is folded and cut into signatures.
  
 ### Web breaks problems in offset printing
