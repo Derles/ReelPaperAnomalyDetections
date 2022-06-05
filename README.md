@@ -61,14 +61,14 @@ randomly around a mean value from time to time. There are different sources
 causing the variation in the applied load and the web strength.
 
 #### Web break example #1
-On this video hole in paper (starts about 1:10m) causes paper break (1:54m)
+On this video the hole in the paper (starts about 1:10m) causes paper break (1:54m)
 [![Web breaks example 1](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Web-breaks-example1.jpg?raw=true)](https://youtu.be/p3pbLeURK8Q?t=70s "Web breaks example 1")
 
 #### Web break example #2
 [![Web breaks example 2](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Web-breaks-example2.jpg?raw=true)](https://youtu.be/0fFKKYjYvJI?t=135s "Web breaks example 1")
 
 #### Web break example #3
-On this video paper anomaly of edge crack (starts at 10s) causes paper break (about 2:30m)
+On this video the paper anomaly of edge crack (starts at 10s) causes paper break (about 2:30m)
 [![Web breaks example 3](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Web-breaks-example3.jpg?raw=true)](https://youtu.be/-D4jnl8v4jk?t=10s "Web breaks example 1")
 
 
@@ -77,9 +77,9 @@ On this video paper anomaly of edge crack (starts at 10s) causes paper break (ab
 
 #### Identification and description of the problem
 
-The problem of paper breaks on web presses is one of the most onerous problems in ensuring a continuous and trouble-free printing process. Paper is the most expensive raw material in the printing process and each breakage generates additional costs related to the material as well as machine downtime.
+The problem of paper breaks on web presses is one of the most onerous problems in ensuring a continuous and trouble-free printing process. The paper is the most expensive raw material in the printing process and each breakage generates additional costs related to the material as well as machine downtime.
 Early detection of a paper defect, which with a high degree of probability will result in paper breakage, can significantly reduce the costs related to the occurrence of breaks or even prevent them earlier.
-The lack of a system detecting anomalies of reel paper means that at this point the situation comes down to the post factum assessment (after the paper break) whether it is related to a defect of the manufacturer's paper. After the occurrence of such an event, the employee manually analyzes hundreds of images from the reel stand/reel splicer to assess whether the break was due to a defect of the paper manufacturer, then a complaint is prepared with the appropriate evidence material.
+The lack of a system detecting anomalies of the reel paper means that at this point the situation comes down to the post factum assessment (after the paper break) whether it is related to a defect of the manufacturer's paper. After the occurrence of such an event, the employee manually analyzes hundreds of images from the reel stand/reel splicer to assess whether the break was due to a defect of the paper manufacturer, then a complaint is prepared with the appropriate evidence material.
 The introduction of the image recognition mechanism on the web press unwinder and then the recognition of labeled defect categories, such as e.g. holes, not only could protect against potential breaks of paper, but also automate the complaint process.
 The proposed solution would analyze images from the reel stand/reel splicer of web press and if a given image was classified as one of the anomalies, it would alert the machine operator who would take further actions, including stopping the printing.
 
@@ -89,7 +89,7 @@ Stage status: Done
 
 At the moment, data on complaints related to the breaks of paper for the current and last year have been collected from four different web presses from two independent locations.
 
-Stage status: First data samples already collectet, it is continuous process.
+Stage status: First data samples already collected, it is continuous process.
 
 #### Categorization of samples
 
@@ -100,36 +100,36 @@ Samples are stored in sub-folder: Samples
 Stage status: Done
 
 ##### Texture of paper
-Example of paper anomaly related with paper texture's:
+The example of the paper anomaly related with paper texture's:
   ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Texture-of-paper-exemple1.jpg?raw=true)
 
 ##### Shell defects
-Example of shell defect on paper reel:
+The example of the shell defect on a paper reel:
   ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Shell-defects-example1.jpg?raw=true)
 
 ##### Edge crack
-Edge crack example:
+The edge crack example:
 ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Edge-crack-example1.jpg?raw=true)
 
 ##### Holes
-Example of paper anomaly caused by holes:
+The example of paper anomaly caused by holes:
 ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Hole-example1.jpg?raw=true)
 
 ##### Factory gluing
-Example of factory gluing defect:
+The example of the factory gluing defect:
 ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Factory-gluing-example1.jpg?raw=true)
 
 ##### Transport damages
-Anomalies caused by transportation:
+Anomalies caused during transportation:
 ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Transport-damages-example1.jpg?raw=true)
 
 ##### Wrinkles
-Examples of wrinkles:
+The examples of wrinkles:
 ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Wrinkles-example1.jpg?raw=true)
 
 
 A further goal in this phase of the project is to prepare well-balanced samples of a minimum of 300 images for each anomaly category, then try to expand these samples to around 1500 images. At the moment, it is already known that it will not be easy to achieve due to the availability of collected complaint materials and the quality of the images (the main problem is lighting).
-The category related to holes in the reel paper appears to be the best documented, therefore further work will mainly focus on this category of defects. If sufficient samples are obtained for the remaining defect categories, further work on them will also be carried out.
+The category related to the holes in the reel paper appears to be the best documented, therefore further work will mainly focus on this category of defects. If sufficient samples are obtained for the remaining defect categories, further work on them will also be carried out.
 
 Stage status: Partly done, still in progress
 
@@ -139,10 +139,10 @@ Stage status: Partly done, still in progress
 
 #### Implementing own solution
 
-At this stage of the project, based on the OpenCV (Open Source Computer Vision Library: http://opencv.org), a solution is created to recognize anomalies related to the occurrence of holes on the paper web on reel stand/reel splicer of web press.
+At this stage of the project, based on the OpenCV (Open Source Computer Vision Library: http://opencv.org), a solution is created to recognize anomalies related to the occurrence of the holes on the paper web on reel stand/reel splicer of web press.
 
 At the next step I would like to build a machine learning model which is able to classify whether an input image of reel paper contains anomalies or not.
-I decided to use VGG16 a Convolutional Neural Network (CNN) model proposed by Karen Simonyan and Andrew Zisserman which sems to be easy to implement in Keras.
+I decided to use VGG16 a Convolutional Neural Network (CNN) model proposed by Karen Simonyan and Andrew Zisserman which seems to be easy to implement in Keras.
 
 Stage status: In progress
 
