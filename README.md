@@ -62,6 +62,12 @@ causing the variation in the applied load and the web strength.
 #### Web break example #2
 [![Web breaks example 2](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Web-breaks-example2.jpg?raw=true)](https://youtu.be/0fFKKYjYvJI?t=135s "Web breaks example 1")
 
+#### Web break example #3
+
+On this video paper anomaly of edge crack (starts at 10s) causes paper break (about 2:30m)
+[![Web breaks example 3](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Web-breaks-example3.jpg?raw=true)](https://youtu.be/-D4jnl8v4jkt=10s "Web breaks example 1")
+
+
 
 ### Project Phases
 
