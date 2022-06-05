@@ -69,13 +69,20 @@ Opisać, że aktualnie zbierane są dane z czterech maszyn rolowych
 
 Opisać jakie kategorie wad występują, które są dominujące - podać przykłady:
 
-- [Faktura Papieru]
-- [Defekty powłoki]
-- [Pęknięcie brzegowe]
-- [Dziura]
-- [Klejenie fabryczne]
-- [Uszkodzenie transportowe]
-- [Zmarszczki]
+- [Texture of Paper]
+Example of paper anomaly related with paper texture's
+  ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Texture-of-paper-exemple1.jpg?raw=true)
+
+- [Shell defects]
+- [Edge crack]
+- [Hole]
+Example of paper anomaly caused by hole.
+![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Hole-example1.jpg?raw=true)
+
+
+- [Factory gluing]
+- [Transport damage]
+- [Wrinkles]
 
 Przygotowanie zestawów zawierających po 300 zdjęć z każdej kategori, próba rozszerzenia próbki do 1500 zdjęć na kategorię.
 Próba zbalansowania próbek na kategorię
