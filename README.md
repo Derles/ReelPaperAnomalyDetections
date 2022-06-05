@@ -38,11 +38,14 @@ The first element of the flow is a Reel Stand/Reel Splicer wchich main task are 
 change the reel fully automatically.
 
 The simplest version of a printing unit is the vertical blanket-to-blanket one which uses a horizontal web-lead to print one color on the front and reverse side of the web; this is standard in web offset printing.
- The printing section is composed of two printing couples arranged in tandem as shown on a figure below.
+The printing section is composed of two printing couples arranged in tandem as shown on a figure below.
 
  ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Blanket-to-blanket-printing-unit-of-a-web-offset-printing-press.jpg?raw=true)
 
- ### Web breaks problems in offset printing
+Standard web press has four printing units for main inks CMYK (Cyan, Magenta, Yelow and Blak).
+At the end of the printing process paper web is folded and cut into signatures.
+ 
+### Web breaks problems in offset printing
 
 Runnability is defined as a printing process without any faults, interruptions, and stops. Web breaks,
 web instability, register errors and wrinkling are examples for runnability
