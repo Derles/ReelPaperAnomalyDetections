@@ -67,15 +67,27 @@ causing the variation in the applied load and the web strength.
 
 #### Identification and description of the problem
 
-Opisać problem zrywu papieru, jaka jest teraz skala i jak to jest teraz robione
+The problem of paper breaks on web presses is one of the most onerous problems in ensuring a continuous and trouble-free printing process. Paper is the most expensive raw material in the printing process and each breakage generates additional costs related to the material as well as machine downtime.
+Early detection of a paper defect, which with a high degree of probability will result in paper breakage, can significantly reduce the costs related to the occurrence of breaks or even prevent them earlier.
+The lack of a system detecting anomalies of reel paper means that at this point the situation comes down to the post factum assessment (after the paper break) whether it is related to a defect of the manufacturer's paper. After the occurrence of such an event, the employee manually analyzes hundreds of images from the reel stand/reel splicer to assess whether the break was due to a defect of the paper manufacturer, then a complaint is prepared with the appropriate evidence material.
+The introduction of the image recognition mechanism on the web press unwinder and then the recognition of labeled defect categories, such as e.g. holes, not only could protect against potential breaks of paper, but also automate the complaint process.
+The proposed solution would analyze images from the reel stand/reel splicer of web press and if a given image was classified as one of the anomalies, it would alert the machine operator who would take further actions, including stopping the printing.
+
+Stage status: Done
 
 #### Data collection
 
-Opisać, że aktualnie zbierane są dane z czterech maszyn rolowych
+At the moment, data on complaints related to the breaks of paper for the current and last year have been collected from four different web presses from two independent locations.
+
+Stage status: First data samples already collectet, it is continuous process.
 
 #### Categorization of samples
 
-Opisać jakie kategorie wad występują, które są dominujące - podać przykłady:
+The following seven defect categories presented below were distinguished in the process related to the filing of complaints regarding the tear of paper. The dominant category seems to be the category related to the presence of holes in the reel paper.
+
+Samples are stored in sub-folder: Samples
+
+Stage status: Done
 
 ##### Texture of paper
 Example of paper anomaly related with paper texture's:
@@ -83,7 +95,7 @@ Example of paper anomaly related with paper texture's:
 
 ##### Shell defects
 Example of shell defect on paper reel:
-  ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Texture-of-paper-exemple1.jpg?raw=true)
+  ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Shell-defects-exemple1.jpg?raw=true)
 
 ##### Edge crack
 Edge crack example:
@@ -106,16 +118,20 @@ Examples of wrinkles:
 ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Wrinkles-example1.jpg?raw=true)
 
 
-Przygotowanie zestawów zawierających po 300 zdjęć z każdej kategori, próba rozszerzenia próbki do 1500 zdjęć na kategorię.
-Próba zbalansowania próbek na kategorię
+A further goal in this phase of the project is to prepare well-balanced samples of a minimum of 300 images for each anomaly category, then try to expand these samples to around 1500 images. At the moment, it is already known that it will not be easy to achieve due to the availability of collected complaint materials and the quality of the images (the main problem is lighting).
+The category related to holes in the reel paper appears to be the best documented, therefore further work will mainly focus on this category of defects. If sufficient samples are obtained for the remaining defect categories, further work on them will also be carried out.
+
+Stage status: Partly done, still in progress
 
 #### Overview of existing solutions
 
-
+Stage status: Partly done, still in progress
 
 #### Implementing own solution
 
-Stworzenie rozwiązania opartego o bibliotekę opencv, które umożliwi rozpoznawanie 5 najczęstrzych kategorii wad. Na ten moment skupiam się na kategori dotyczącej dziur
+At this stage of the project, based on the OpenCV (Open Source Computer Vision Library: http://opencv.org), a solution is created to recognize anomalies related to the occurrence of holes on the paper web on reel stand/reel splicer of web press.
+
+Stage status: In progress
 
 ### References
 
@@ -134,9 +150,5 @@ Stworzenie rozwiązania opartego o bibliotekę opencv, które umożliwi rozpozna
 - [@Derles](https://github.com/Derles)
 
 
-## Roadmap
 
-- Additional browser support
-
-- Add more integrations
 
