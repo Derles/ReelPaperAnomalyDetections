@@ -136,6 +136,7 @@ Stage status: Partly done, still in progress
 #### Implementing own solution
 
 At this stage of the project, based on the OpenCV (Open Source Computer Vision Library: http://opencv.org), a solution is created to recognize anomalies related to the occurrence of holes on the paper web on reel stand/reel splicer of web press.
+
 At the next step I would like to build a machine learning model which is able to classify whether an input image of reel paper contains anomalies or not.
 I decided to use VGG16 a Convolutional Neural Network (CNN) model proposed by Karen Simonyan and Andrew Zisserman wchich sems to be easy to implement in Keras.
 
