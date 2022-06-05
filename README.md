@@ -42,7 +42,7 @@ The printing section is composed of two printing couples arranged in tandem as s
 
  ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Blanket-to-blanket-printing-unit-of-a-web-offset-printing-press.jpg?raw=true)
 
-Standard web press has four printing units for main inks CMYK (Cyan, Magenta, Yelow and Blak).
+Standard web press has four printing units for main inks CMYK (Cyan, Magenta, Yelow and Black).
 
 At the end of the printing process paper web is folded and cut into signatures.
  
