@@ -95,7 +95,7 @@ Example of paper anomaly related with paper texture's:
 
 ##### Shell defects
 Example of shell defect on paper reel:
-  ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Shell-defects-exemple1.jpg?raw=true)
+  ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Shell-defects-example1.jpg?raw=true)
 
 ##### Edge crack
 Edge crack example:
