@@ -99,7 +99,7 @@ Example of shell defect on paper reel:
 
 ##### Edge crack
 Edge crack example:
-![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Edge-crac-example1.jpg?raw=true)
+![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Edge-crack-example1.jpg?raw=true)
 
 ##### Holes
 Example of paper anomaly caused by holes:
