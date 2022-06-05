@@ -13,6 +13,7 @@ The aim of the project is to create a mechanism for detecting paper defects on t
     3.1 [Identification and description of the problem](#identification-and-description-of-the-problem)  
     3.2 [Data collection](#data-collection)  
     3.3 [Categorization of samples](#categorization-of-samples)  
+        3.3.1 [Texture of Paper](#Texture of Paper)  
     3.4 [Overview of existing solutions](#overview-of-existing-solutions)   
     3.5 [Implementing own solution](#implementing-own-solution)
  4. [References](#references)
@@ -69,20 +70,29 @@ Opisać, że aktualnie zbierane są dane z czterech maszyn rolowych
 
 Opisać jakie kategorie wad występują, które są dominujące - podać przykłady:
 
-- [Texture of Paper]
-Example of paper anomaly related with paper texture's
+##### Texture of Paper
+Example of paper anomaly related with paper texture's:
   ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Texture-of-paper-exemple1.jpg?raw=true)
 
-- [Shell defects]
-- [Edge crack]
-- [Hole]
+##### Shell defects
+Example of shell defect on paper reel:
+  ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Texture-of-paper-exemple1.jpg?raw=true)
+
+##### Edge crack
+Edge crack example:
+![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Edge-crac-example1.jpg?raw=true)
+
+##### Hole
 Example of paper anomaly caused by hole.
 ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Hole-example1.jpg?raw=true)
 
+##### Factory gluing
+Example of factory gluing defect:
+![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Factory-gluing-example1.jpg?raw=true)
 
-- [Factory gluing]
-- [Transport damage]
-- [Wrinkles]
+##### Transport damages
+
+##### Wrinkles
 
 Przygotowanie zestawów zawierających po 300 zdjęć z każdej kategori, próba rozszerzenia próbki do 1500 zdjęć na kategorię.
 Próba zbalansowania próbek na kategorię
