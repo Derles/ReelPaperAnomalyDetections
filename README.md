@@ -30,11 +30,11 @@ The aim of the project is to create a mechanism for detecting paper defects on t
 
 Web offset is a form of offset printing in which a continuous roll of paper is fed through the printing press. Pages are separated and cut to size after they have been printed. Web offset printing is used for high-volume publications such as mass-market books, magazines, newspapers, catalogs and brochures
 
-Figure below shows printing flow and general concept of web ofset press.
+Figure below shows printing flow and general concept of web offset press.
 
   ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Web-offset-press-components.jpg?raw=true)
 
-The first element of the flow is a Reel Stand/Reel Splicer wchich main task are unwind the paper reel, tension the paper web and keep it at constant tension and
+The first element of the flow is a Reel Stand/Reel Splicer which main task are unwind the paper reel, tension the paper web and keep it at constant tension and
 change the reel fully automatically.
 
 The simplest version of a printing unit is the vertical blanket-to-blanket one which uses a horizontal web-lead to print one color on the front and reverse side of the web; this is standard in web offset printing.
@@ -142,7 +142,7 @@ Stage status: Partly done, still in progress
 At this stage of the project, based on the OpenCV (Open Source Computer Vision Library: http://opencv.org), a solution is created to recognize anomalies related to the occurrence of holes on the paper web on reel stand/reel splicer of web press.
 
 At the next step I would like to build a machine learning model which is able to classify whether an input image of reel paper contains anomalies or not.
-I decided to use VGG16 a Convolutional Neural Network (CNN) model proposed by Karen Simonyan and Andrew Zisserman wchich sems to be easy to implement in Keras.
+I decided to use VGG16 a Convolutional Neural Network (CNN) model proposed by Karen Simonyan and Andrew Zisserman which sems to be easy to implement in Keras.
 
 Stage status: In progress
 
