@@ -1,2 +1,0 @@
-# ReelPaperAnomalyDetections
-ReelPaperAnomalyDetections
