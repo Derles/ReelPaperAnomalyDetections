@@ -57,13 +57,13 @@ randomly around a mean value from time to time. There are different sources
 causing the variation in the applied load and the web strength.
 
 #### Web break example #1
+On this video hole in paper (starts about 1:10m) causes paper break (1:12m)
 [![Web breaks example 1](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Web-breaks-example1.jpg?raw=true)](https://youtu.be/p3pbLeURK8Q?t=72s "Web breaks example 1")
 
 #### Web break example #2
 [![Web breaks example 2](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Web-breaks-example2.jpg?raw=true)](https://youtu.be/0fFKKYjYvJI?t=135s "Web breaks example 1")
 
 #### Web break example #3
-
 On this video paper anomaly of edge crack (starts at 10s) causes paper break (about 2:30m)
 [![Web breaks example 3](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Web-breaks-example3.jpg?raw=true)](https://youtu.be/-D4jnl8v4jk?t=10s "Web breaks example 1")
 
