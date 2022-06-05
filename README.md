@@ -7,9 +7,9 @@ The aim of the project is to create a mechanism for detecting paper defects on t
 ## Table of Contents
 
 
- 1. [Web Offset Printing Overview](#web-offset-printing-overview)
- 2. [Web Breaks Problems In Offset Printing](#web-breaks-problems-in-offsetrinting)
- 3. [Project Phases](#project-phases)  
+ 1. [Web offset printing overview](#web-offset-printing-overview)
+ 2. [Web breaks problems on offset printing](#web-breaks-problems-in-offsetrinting)
+ 3. [Project phases](#project-phases)  
     3.1 [Identification and description of the problem](#identification-and-description-of-the-problem)  
     3.2 [Data collection](#data-collection)  
     3.3 [Categorization of samples](#categorization-of-samples)  
@@ -26,7 +26,7 @@ The aim of the project is to create a mechanism for detecting paper defects on t
  4. [References](#references)
 
 
-### Web Offset Printing Overview
+### Web offset printing overview
 
 Web offset is a form of offset printing in which a continuous roll of paper is fed through the printing press. Pages are separated and cut to size after they have been printed. Web offset printing is used for high-volume publications such as mass-market books, magazines, newspapers, catalogs and brochures
 
@@ -42,7 +42,7 @@ The simplest version of a printing unit is the vertical blanket-to-blanket one w
 
  ![Screenshot](https://github.com/Derles/ReelPaperAnomalyDetections/blob/main/Images/Blanket-to-blanket-printing-unit-of-a-web-offset-printing-press.jpg?raw=true)
 
- ### Web Breaks Problems In Offset Printing
+ ### Web breaks problems in offset printing
 
 Runnability is defined as a printing process without any faults, interruptions, and stops. Web breaks,
 web instability, register errors and wrinkling are examples for runnability
@@ -69,7 +69,7 @@ On this video paper anomaly of edge crack (starts at 10s) causes paper break (ab
 
 
 
-### Project Phases
+### Project phases
 
 #### Identification and description of the problem
 
